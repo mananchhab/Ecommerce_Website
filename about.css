@@ -1,0 +1,139 @@
+.nav{
+    background-color: white;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.nav_top{
+    position:fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo img{
+    padding: 1px;
+}
+.nav_side{
+    float: right;
+    margin-top: 10px;
+
+}
+.nav_side a{
+    
+    text-decoration: none;
+    margin-right: 16px;
+    color: black;
+    font-weight: bold;
+    font-family: cosmic,sans-serif;
+    font-size: 20.7px;
+    justify-content: center;
+    align-items: center ;
+    align-content: center;
+    text-align: center;
+    
+}
+.nav_side a:hover{
+    color: orange;
+    text-decoration: underline;
+    transition: 1s;
+}
+.logo{
+    float: left;
+    width: 60%;
+}
+footer{
+    background-color: #99A3A4;
+    padding-top: 50px;
+    padding-left:50px;
+    display: flex;
+    flex-direction: column;
+}
+footer .got{
+    text-align: center;
+    justify-content: center;
+    
+}
+footer .got h3{
+    color: black;
+    font-size: 23px;
+    padding: 5px;
+    font-family: cosmic,sans-serif;
+
+}
+footer .got a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 18px;
+    font-family: cosmic,sans-serif;
+}
+footer .got a:hover{
+    color: white;
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h3{
+    color: black;
+    font-size: 23px;
+    padding: 5px;
+    font-family: cosmic,sans-serif;
+
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 18px;
+    font-family: cosmic,sans-serif;
+}
+footer .doc a:hover{
+    color: white;
+}
+footer .socials{
+    text-align: center;
+}
+footer .socials h3{
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    font-family: cosmic,sans-serif;
+
+}
+footer .socials a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 25px;
+    font-family: cosmic,sans-serif;
+}
+footer .socials a:hover{
+    color: white;
+}
+footer .Contact{
+    text-align: center;
+}
+footer .Contact h3{
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    font-family: cosmic,sans-serif;
+
+}
+footer .Contact a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 25px;
+    font-family: cosmic,sans-serif;
+}
+footer .Contact a:hover{
+    color: white;
+}
+.d-block{
+    border-radius: 25px;
+    
+}
